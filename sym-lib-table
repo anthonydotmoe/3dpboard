@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "SoPine")(type "Legacy")(uri "${KIPRJMOD}/lib/SoPine.lib")(options "")(descr ""))
+  (lib (name "lm5013")(type "KiCad")(uri "${KIPRJMOD}/lib/lm5013.kicad_sym")(options "")(descr ""))
+)

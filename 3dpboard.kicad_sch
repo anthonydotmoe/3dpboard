@@ -1,0 +1,127 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 7f0bf3ee-5c8c-46b6-b05b-d99e914382dd)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 88.9 25.4) (size 12.7 12.7) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 124079eb-ebeb-4477-a184-e5824e3f994f)
+    (property "Sheet name" "power" (id 0) (at 88.9 24.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "power.kicad_sch" (id 1) (at 88.9 38.6846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 69.85 64.77) (size 15.24 15.24) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 630d6a0e-4fcc-44cd-bea0-ae8aa7f68005)
+    (property "Sheet name" "SOPine" (id 0) (at 69.85 64.0584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "sopine.kicad_sch" (id 1) (at 69.85 80.5946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/630d6a0e-4fcc-44cd-bea0-ae8aa7f68005" (page "3"))
+    (path "/124079eb-ebeb-4477-a184-e5824e3f994f" (page "3"))
+  )
+
+  (symbol_instances
+    (path "/124079eb-ebeb-4477-a184-e5824e3f994f/ed10d296-824d-480b-9d6c-d57b2cda4cbe"
+      (reference "#PWR01") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/124079eb-ebeb-4477-a184-e5824e3f994f/ea08b331-5e97-4b0b-88f3-7c85d7b53dd6"
+      (reference "#PWR02") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/124079eb-ebeb-4477-a184-e5824e3f994f/e17fe23c-da42-4213-bf48-d518074bc5de"
+      (reference "#PWR03") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/124079eb-ebeb-4477-a184-e5824e3f994f/cd8d0b6a-8d2e-4f07-9dfb-54e50dab5f2a"
+      (reference "#PWR04") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/124079eb-ebeb-4477-a184-e5824e3f994f/fe091d03-3990-4ef6-ad29-710bb3cf932b"
+      (reference "#PWR05") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/124079eb-ebeb-4477-a184-e5824e3f994f/20793adb-f3a2-48f9-8902-117e2485c9d8"
+      (reference "#PWR06") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/124079eb-ebeb-4477-a184-e5824e3f994f/9a1933e9-215c-4405-b4db-cfa10807e9be"
+      (reference "C1") (unit 1) (value "2.2uF") (footprint "Capacitor_SMD:C_1210_3225Metric")
+    )
+    (path "/124079eb-ebeb-4477-a184-e5824e3f994f/6dc27c07-a7a1-4546-a9f1-c731b9d703ce"
+      (reference "C2") (unit 1) (value "2.2uF") (footprint "Capacitor_SMD:C_1210_3225Metric")
+    )
+    (path "/124079eb-ebeb-4477-a184-e5824e3f994f/296621c7-a908-421e-81de-6858e8055d57"
+      (reference "C3") (unit 1) (value "2.2nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/124079eb-ebeb-4477-a184-e5824e3f994f/7d1fc223-b20a-4c08-bfe3-823ca349fe11"
+      (reference "C4") (unit 1) (value "56pF") (footprint "Capacitor_SMD:C_0805_2012Metric")
+    )
+    (path "/124079eb-ebeb-4477-a184-e5824e3f994f/cb53cceb-f020-418f-9137-c32ed390933f"
+      (reference "C5") (unit 1) (value "1.2nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/124079eb-ebeb-4477-a184-e5824e3f994f/34480d0f-e175-428c-866e-c79c086f3974"
+      (reference "C6") (unit 1) (value "22uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/124079eb-ebeb-4477-a184-e5824e3f994f/73ecfad7-e2da-498c-9565-db6ccf36e860"
+      (reference "C7") (unit 1) (value "22uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/124079eb-ebeb-4477-a184-e5824e3f994f/44027070-140f-46a3-b48c-1dc9aaf4ee8f"
+      (reference "D1") (unit 1) (value "D") (footprint "Diode_SMD:D_SMA")
+    )
+    (path "/124079eb-ebeb-4477-a184-e5824e3f994f/ce613def-c692-4373-a055-a40c04222be5"
+      (reference "D2") (unit 1) (value "D") (footprint "Diode_SMD:D_SMA")
+    )
+    (path "/124079eb-ebeb-4477-a184-e5824e3f994f/93ce7e71-d385-4404-b6c2-be9cd92ff387"
+      (reference "D3") (unit 1) (value "D") (footprint "Diode_SMD:D_SMA")
+    )
+    (path "/124079eb-ebeb-4477-a184-e5824e3f994f/39fb5bad-3049-430a-b04d-b5aa7c785925"
+      (reference "D4") (unit 1) (value "SK220ATR") (footprint "Diode_SMD:D_SMA")
+    )
+    (path "/124079eb-ebeb-4477-a184-e5824e3f994f/29827425-70b5-44a0-99c0-195f09b90169"
+      (reference "F1") (unit 1) (value "Fuse") (footprint "Fuse:Fuseholder_Blade_Mini_Keystone_3568")
+    )
+    (path "/124079eb-ebeb-4477-a184-e5824e3f994f/ee9e0190-34ed-4212-bc92-caa6eef68ed8"
+      (reference "F2") (unit 1) (value "Fuse") (footprint "Fuse:Fuseholder_Blade_Mini_Keystone_3568")
+    )
+    (path "/124079eb-ebeb-4477-a184-e5824e3f994f/a02edbcd-0725-424a-a3b9-e9ba99f6feea"
+      (reference "F3") (unit 1) (value "Fuse") (footprint "Fuse:Fuseholder_Blade_Mini_Keystone_3568")
+    )
+    (path "/124079eb-ebeb-4477-a184-e5824e3f994f/a75380f5-f833-41c5-a30f-196c4a8368a4"
+      (reference "J1") (unit 1) (value "Screw_Terminal_01x08") (footprint "3dpboard:OSTYK33108030")
+    )
+    (path "/124079eb-ebeb-4477-a184-e5824e3f994f/8ca3a122-b788-46b9-b6eb-71cc3ddbd8d2"
+      (reference "L1") (unit 1) (value "22uH") (footprint "")
+    )
+    (path "/124079eb-ebeb-4477-a184-e5824e3f994f/4419b216-a531-4c67-9422-6d5c96ff0d53"
+      (reference "R1") (unit 1) (value "41.2k") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/124079eb-ebeb-4477-a184-e5824e3f994f/31c6cf8e-d988-41a6-9b17-fe43f33aea34"
+      (reference "R2") (unit 1) (value "392k") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/124079eb-ebeb-4477-a184-e5824e3f994f/df4c97b2-95e4-42ff-b607-9afefd8082a8"
+      (reference "R3") (unit 1) (value "316k") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/124079eb-ebeb-4477-a184-e5824e3f994f/8631e558-8195-41ab-b212-bf8e4fc59532"
+      (reference "R4") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/630d6a0e-4fcc-44cd-bea0-ae8aa7f68005/c9ccb303-69eb-40e2-8762-9ffae7fd1813"
+      (reference "U1") (unit 1) (value "SoPINE") (footprint "3dpboard:2-2013022-1")
+    )
+    (path "/124079eb-ebeb-4477-a184-e5824e3f994f/640fd3ac-9600-42fb-9ebf-015c582ed2f4"
+      (reference "U2") (unit 1) (value "LM5013") (footprint "DDA0008E_N")
+    )
+  )
+)
